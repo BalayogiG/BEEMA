@@ -1,0 +1,31 @@
+{
+    "manifest_version":2,
+    "name": "BEEMA extension",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches":[
+                "<all_urls>"
+            ],
+            "js":["content.js"]
+        }
+    ],
+    "permissions": ["tabs"],
+    "browser_action":{
+        "default_icon": "icon.png"
+    },
+    "web_accessible_resources": [
+        "Tones/0.mp3",
+        "Tones/1.mp3",
+        "Tones/2.mp3",
+        "Tones/3.mp3",
+        "Tones/4.mp3",
+        "Tones/5.mp3",
+        "Tones/6.mp3",
+        "Tones/7.mp3",
+        "Tones/8.mp3",
+        "Tones/9.mp3",
+        "Tones/invalid.mp3"
+    ]
+
+}
